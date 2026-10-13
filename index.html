@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HX Handyman Dashboard</title><meta name="robots" content="noindex">
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f5f6f8;color:#1d2433}
+header{background:#1f3a5f;color:#fff;padding:16px 20px}h1{margin:0;font-size:22px}header p{margin:4px 0 0;opacity:.85;font-size:14px}
+main{max-width:1150px;margin:auto;padding:16px}h2{margin:28px 0 10px;font-size:19px;border-bottom:2px solid #1f3a5f;padding-bottom:4px}
+.tw{overflow-x:auto;background:#fff;border-radius:8px;box-shadow:0 1px 3px #0002}
+table{border-collapse:collapse;width:100%;font-size:13.5px}th,td{padding:8px;border-bottom:1px solid #e3e6ea;text-align:left;vertical-align:top}
+th{background:#eef2f7;position:sticky;top:0}tr.cheapest{background:#e9f8ec}tr.flexible{background:#eaf2ff}
+.b{display:inline-block;padding:2px 7px;border-radius:10px;font-size:12px;font-weight:600;white-space:nowrap}
+.ok{background:#d8f3dc;color:#1b5e20}.web{background:#fff3cd;color:#7a5a00}.no{background:#eee;color:#555}.cur{background:#dbe7ff;color:#1f3a5f}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.card{background:#fff;border-radius:8px;padding:14px;box-shadow:0 1px 3px #0002}.card h3{margin:0 0 2px;font-size:17px}.sub{color:#555;font-size:13px;margin-bottom:8px}
+.card a{color:#1a56b0}.q{background:#f6f7f9;border-left:3px solid #1f3a5f;padding:6px 8px;font-size:13px;margin:6px 0;white-space:pre-wrap}
+ul{padding-left:18px;margin:4px 0;font-size:13px}.lbl{font-weight:600;font-size:13px;margin-top:8px}.legend{font-size:13px;margin:6px 0}
+.small{font-size:12px;color:#666}
+</style></head><body>
+<header><h1>HX Handyman Dashboard</h1><p>Who we can call, what they charge, and what they've done for us. Read-only. <span id="upd"></span></p></header>
+<main>
+<div class="legend"><span class="b ok">Confirmed</span> = they told us directly &nbsp; <span class="b web">Website only</span> = from their website, not confirmed &nbsp; Green row = cheapest &nbsp; Blue row = most flexible</div>
+<h2>1. Quick comparison</h2><div class="tw"><table id="cmp"></table></div>
+<h2>2. Handyman details</h2><div class="cards" id="cards"></div>
+<h2>3. Jobs &amp; history</h2><div class="tw"><table id="jobs"></table></div>
+<h2>4. Invoices &amp; receipts</h2><div id="inv"></div>
+<h2>5. Did not reply (contacted Oct 7, 2026)</h2><div class="tw"><table id="non"></table></div>
+<p class="small">Data lives in data.json in this repo. Unknown means we don't have it yet; nothing here is guessed.</p>
+</main>
+<script>
+const e=s=>(s==null||s==='')?'—':String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const tel=p=>p?`<a href="tel:+1${p.replace(/\D/g,'')}">${e(p)}</a>`:'—';
+const mail=m=>m?`<a href="mailto:${e(m)}">${e(m)}</a>`:'—';
+const web=w=>w?`<a href="${e(w)}" target="_blank" rel="noopener">website</a>`:'—';
+const st=s=>`<span class="b ${/with fees/.test(s)?'ok':/current|Used/.test(s)?'cur':'no'}">${e(s)}</span>`;
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
+document.getElementById('upd').textContent='Last updated: '+d.last_updated;
+const all=[...d.responders,...d.others];
+let h='<tr><th>Name</th><th>Business</th><th>Base</th><th>Hourly rate</th><th>Trip / service fee</th><th>Minimum</th><th>Materials</th><th>Flat quotes</th><th>Areas covered</th><th>Limits</th><th>Status</th><th>Best for</th></tr>';
+for(const x of all){const rb=x.rate_confirmed?'<span class="b ok">Confirmed</span>':(/website/i.test(x.rate)?'<span class="b web">Website only</span>':'');
+h+=`<tr class="${x.highlight||''}"><td><b>${e(x.name)}</b><br>${tel(x.phone)}</td><td>${e(x.business)}</td><td>${e(x.city)}</td><td>${e(x.rate)} ${rb}</td><td>${e(x.trip)}</td><td>${e(x.minimum)}</td><td>${e(x.materials)}</td><td>${e(x.flat)}</td><td>${e(x.area)}</td><td>${e(x.limits)}</td><td>${st(x.status)}</td><td>${e(x.best)}</td></tr>`}
+for(const x of d.no_reply)h+=`<tr><td><b>${e(x.business)}</b><br>${tel(x.phone)}</td><td>${e(x.business)}</td><td>${e(x.address)}</td><td>${e(x.website_rate)} <span class="b web">Website only</span></td><td>—</td><td>—</td><td>—</td><td>—</td><td>${e(x.area)}</td><td>—</td><td>${st('No reply')}</td><td>—</td></tr>`;
+document.getElementById('cmp').innerHTML=h;
+document.getElementById('cards').innerHTML=all.map(x=>`<div class="card"><h3>${e(x.name)}</h3><div class="sub">${e(x.business)} · ${st(x.status)}</div>
+<div>📞 ${tel(x.phone)} &nbsp; ✉️ ${mail(x.email)} &nbsp; 🌐 ${web(x.website)}</div><div class="small">Contacted: ${e(x.contacted)}</div>
+${x.reply.length?'<div class="lbl">Their reply (word for word)</div>'+x.reply.map(r=>`<div class="q">${e(r)}</div>`).join(''):''}
+${x.followups.length?'<div class="lbl">Our follow-ups / pending</div><ul>'+x.followups.map(f=>`<li>${e(f)}</li>`).join('')+'</ul>':''}
+<div class="lbl">Jobs for HX</div>${x.jobs.length?'<ul>'+x.jobs.map(j=>`<li>${e(j.date)} · ${e(j.house)} · ${e(j.job)} · ${e(j.amount)} · ${e(j.status)}</li>`).join('')+'</ul>':'<div class="small">No jobs yet</div>'}
+<div class="lbl">Invoices</div>${x.invoices.length?'<ul>'+x.invoices.map(i=>`<li><a href="${e(i.url)}" target="_blank" rel="noopener">${e(i.label)}</a></li>`).join('')+'</ul>':'<div class="small">No invoices yet</div>'}</div>`).join('');
+let j='<tr><th>Handyman</th><th>Date</th><th>House</th><th>Job</th><th>Amount</th><th>Status</th></tr>';
+for(const x of all)for(const r of x.jobs)j+=`<tr><td>${e(x.name)}</td><td>${e(r.date)}</td><td>${e(r.house)}</td><td>${e(r.job)}</td><td>${e(r.amount)}</td><td>${e(r.status)}</td></tr>`;
+document.getElementById('jobs').innerHTML=j;
+document.getElementById('inv').innerHTML=`<p>All files: <a href="${e(d.invoice_folder)}" target="_blank" rel="noopener">HX Handyman Invoices (Google Drive)</a></p>`+all.map(x=>`<p><b>${e(x.name)}:</b> ${x.invoices.length?x.invoices.map(i=>`<a href="${e(i.url)}" target="_blank" rel="noopener">${e(i.label)}</a>`).join(' · '):'No invoices yet'}</p>`).join('');
+let n='<tr><th>Business</th><th>Contact</th><th>Phone</th><th>Email</th><th>Website</th><th>Website rate (not confirmed)</th><th>HX cities</th><th>How we reached out</th></tr>';
+for(const x of d.no_reply)n+=`<tr><td><b>${e(x.business)}</b></td><td>${e(x.name==='not listed'?'':x.name)}</td><td>${tel(x.phone)}</td><td>${mail(x.email)}</td><td>${web(x.website)}</td><td>${e(x.website_rate)}</td><td>${e(x.area)}</td><td>${e(x.contacted)}</td></tr>`;
+document.getElementById('non').innerHTML=n;});
+</script></body></html>

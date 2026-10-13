@@ -1,0 +1,480 @@
+{
+ "last_updated": "Oct 13, 2026 3:17 PM MT",
+ "invoice_folder": "https://drive.google.com/drive/folders/1SQCguIm9HfJWekb-QNdGPw-4ofGiJwO2",
+ "responders": [
+  {
+   "phone": "970-400-7272",
+   "email": null,
+   "website": "https://nocovikinghandyman.com/",
+   "area": "Longmont, Loveland, Fort Collins, Greeley, Berthoud",
+   "services": "Repairs, doors/locks, drywall, fixtures, fans, appliances, minor plumbing, fence/deck, gutters, pressure washing, hauling",
+   "address": "Milliken, CO",
+   "website_rate": "$55/hr + materials (1-hour minimum)",
+   "contacted": "Oct 7, 2026 (Text)",
+   "id": "karl",
+   "name": "Karl Bergersen",
+   "business": "NoCo Viking Handyman",
+   "city": "Longmont area",
+   "status": "Responded with fees",
+   "rate": "Hourly (amount not confirmed; website says $55/hr)",
+   "rate_confirmed": false,
+   "trip": "None – drive time counted in the hours",
+   "minimum": "1 hour (website); drive + job time",
+   "materials": "Extra (parts)",
+   "flat": "Sometimes; mostly hourly",
+   "limits": "No excavation/concrete listed",
+   "best": "Cheapest posted rate; covers all 5 cities; small repairs (doors, decks, fixtures)",
+   "highlight": "cheapest",
+   "reply": [
+    "Text, Oct 7 1:11 PM: \"Yes, and no to your first two questions. What I typically do for travel is if I have say, a project that takes 20 minutes to get there and it's a 20 to 30 minute repair that would be a one hour charge (plus parts). If I have a project that is 50 minutes to get there and four hours on site, it would be a five hour charge. I will quote flat prices on projects in certain situations, most of my work is done by the hour. I'm typically very efficient with my time so it tends to be cheaper for the client if I do them by the hour. Regards, Karl\""
+   ],
+   "followups": [
+    "Oct 8 2:36 PM – we texted asking about the Gardner trench (he did not take it).",
+    "Oct 8 evening – we texted to book him Oct 14 for the West Point bedroom door + Alpine deck.",
+    "Oct 9 6:11 AM – Karl asked for photos; Oct 9 1:41 PM we sent door + deck photos and asked him to look at the Alpine deck (1319 Alpine St) in person for an estimate.",
+    "Oct 10 9:58 AM – Karl: \"Is there currently anyone in the Alpine Street location? Going to try to fit that into today's schedule.\" Oct 10 3:16 PM he asked again; our reply went Oct 11.",
+    "Oct 11 4:04 PM – Karl: \"Unfortunately, I only had the ability to get there yesterday to check it out. I will have to check it out on Wednesday.\"",
+    "Oct 11 7:21 PM – we confirmed Wednesday (Oct 14), anytime 8 AM–7 PM, deck on the north side out back. Karl: \"Ok 👌🏻\"."
+   ],
+   "jobs": [
+    {
+     "date": "Oct 14, 2026 (planned)",
+     "house": "Alpine (1319 Alpine St, Longmont)",
+     "job": "Look at rotted deck at foot of stairs + cracked bottom rail; give options & estimate",
+     "amount": "Unknown – estimate pending",
+     "status": "Scheduled visit"
+    },
+    {
+     "date": "TBD",
+     "house": "West Point",
+     "job": "Bedroom door repair (photos sent Oct 9)",
+     "amount": "Unknown",
+     "status": "Discussed, not booked/done"
+    }
+   ],
+   "invoices": []
+  },
+  {
+   "phone": "970-690-6676",
+   "email": "myhman247@gmail.com",
+   "website": "https://www.handymanrepairloveland.com/",
+   "area": "Loveland, Fort Collins",
+   "services": "Doors, drywall, flooring, painting, trim, decks, fences, gutters, sprinklers, power washing, rental property maintenance and refurbishing. Refers out licensed plumbing/electrical work.",
+   "address": "628 N Washington Ave, Loveland CO 80537 (Google listing)",
+   "website_rate": "Site lists two rates: '$68.00 per man hour' in the rate table and '$85 per hour' in the header",
+   "contacted": "Oct 7, 2026 (Text)",
+   "id": "aaron",
+   "name": "Aaron Carpenter",
+   "business": "Hometown Handyman",
+   "city": "Loveland / Fort Collins",
+   "status": "Responded with fees",
+   "rate": "$85/hr",
+   "rate_confirmed": true,
+   "trip": "None – drive time billed on the clock",
+   "minimum": "Yes, covers labor + driving (website says 2 hrs)",
+   "materials": "Extra (not in minimum)",
+   "flat": "Yes",
+   "limits": "Refers out licensed plumbing/electrical",
+   "best": "Small rental repairs where you want a flat quote up front",
+   "reply": [
+    "Text, Oct 7 1:09 PM: \"Hello Grant. 1) 85 2) No additional trip charge but travel time is part of the rate. 3) The minimum is for any labor or driving but not for materials 4) Yes. 5) I cover all three but driving is on the clock.\""
+   ],
+   "followups": [
+    "Feb 18, 2026 – Joe emailed him (myhman247@gmail.com) for quotes: Greeley closet rod + bathroom ceiling patch, Loveland kitchen faucet. No reply found in HX Gmail.",
+    "Oct 8 2:36 PM – we texted asking about the Gardner trench. No reply found."
+   ],
+   "jobs": [],
+   "invoices": []
+  },
+  {
+   "phone": "970-800-2827",
+   "email": "cdrllcservice@gmail.com",
+   "website": "https://www.cdrservice.net/",
+   "area": "Longmont, Loveland, Fort Collins, Greeley, Berthoud (per his email)",
+   "services": "Rental property maintenance, rental turns/make-ready, plumbing (incl. drain cleaning), drywall, painting, minor electrical, flooring, doors/hardware, concrete",
+   "address": "Loveland, CO",
+   "website_rate": "unknown, ask",
+   "contacted": "Oct 7, 2026 (Website contact form)",
+   "id": "javier",
+   "name": "Javier Olivares",
+   "business": "CDR Services",
+   "city": "Loveland",
+   "status": "Responded with fees",
+   "rate": "$85/hr",
+   "rate_confirmed": true,
+   "trip": "$50 service call – credited to the repair if you approve the work",
+   "minimum": "1 hour",
+   "materials": "Extra",
+   "flat": "Yes, larger jobs",
+   "limits": "None stated; does concrete, plumbing, minor electrical",
+   "best": "Bigger jobs and rental turns; open to preferred-vendor pricing",
+   "highlight": "flexible",
+   "reply": [
+    "Email, Oct 8 7:24 AM: \"1. Service Call Fee: Our standard service call fee is $50. 2. Service Fee Credit: Yes, the $50 service call fee is credited toward the repair when the proposed work is approved. 3. Hourly Rate: Our standard labor rate is $85 per hour, with a one-hour minimum. Materials are billed separately. Larger projects can be quoted at a flat rate. 4. Longmont Coverage: Absolutely. We proudly serve Longmont, Loveland, Fort Collins, Greeley, Berthoud, and surrounding areas. ... we are also open to discussing preferred vendor pricing as our working relationship develops...\""
+   ],
+   "followups": [
+    "PENDING: our reply email (approved by Grant Oct 9) has NOT been sent yet."
+   ],
+   "jobs": [],
+   "invoices": []
+  },
+  {
+   "phone": "970-699-0212",
+   "email": "tanner.khc@gmail.com",
+   "website": "https://www.khc.llc/services/handyman",
+   "area": "Loveland, Fort Collins, Greeley",
+   "services": "Doors/windows, drywall, fixtures, trim, caulking, minor plumbing, outlets/switches, deck/fence, gutters, paint touch-ups, tile/grout. Also remodels.",
+   "address": "415 3rd St, Severance CO",
+   "website_rate": "unknown, ask",
+   "contacted": "Oct 7, 2026 (Email)",
+   "id": "tanner",
+   "name": "Tanner",
+   "business": "Keep Hammering Construction",
+   "city": "Severance",
+   "status": "Responded, no fees",
+   "rate": "Unknown",
+   "rate_confirmed": false,
+   "trip": "Website: 'minimum service charge to cover travel' (amount not posted)",
+   "minimum": "Unknown",
+   "materials": "Unknown",
+   "flat": "Website: upfront estimate",
+   "limits": "Longmont & Berthoud not listed",
+   "best": "Unknown until he answers",
+   "reply": [
+    "Text, Oct 8 3:40 PM: \"Who are you guys?\""
+   ],
+   "followups": [
+    "Oct 8 – we emailed him about the Gardner trench job.",
+    "PENDING: no text reply to \"Who are you guys?\" has been sent."
+   ],
+   "jobs": [],
+   "invoices": []
+  },
+  {
+   "phone": "970-215-5820",
+   "email": "Ted@1stPlaceHandyman.com",
+   "website": "https://www.1stplacehandyman.com/",
+   "area": "Longmont, Loveland, Fort Collins, Greeley, Berthoud",
+   "services": "Installs, maintenance, repairs, light plumbing, light electrical, drywall, painting, carpentry, doors, deck staining",
+   "address": "Fort Collins area",
+   "website_rate": "unknown, ask",
+   "contacted": "Oct 7, 2026 (Email)",
+   "id": "ted",
+   "name": "Ted Treece",
+   "business": "1st Place Handyman",
+   "city": "",
+   "status": "Responded, no fees",
+   "rate": "Unknown",
+   "rate_confirmed": false,
+   "trip": "Unknown",
+   "minimum": "Unknown",
+   "materials": "Unknown",
+   "flat": "Unknown",
+   "limits": "Unknown",
+   "best": "Unknown – only gave a referral",
+   "reply": [
+    "Text, Oct 8 ~5:22 PM: referred us to Dillmann's Concrete for the Gardner trench (did not answer the rate questions)."
+   ],
+   "followups": [
+    "Rate questions still unanswered."
+   ],
+   "jobs": [],
+   "invoices": []
+  }
+ ],
+ "others": [
+  {
+   "id": "gama",
+   "name": "Gamaliel \"Gama\" Jimenez Sanchez",
+   "business": "BRBO LLC",
+   "city": "Loveland",
+   "phone": "970-631-6023",
+   "email": "jimenezgama198@gmail.com",
+   "website": null,
+   "area": "Unknown (has worked Loveland, Longmont, Greeley-area HX houses)",
+   "services": "General maintenance/repairs, appliance installs",
+   "contacted": "Existing HX handyman (Sept 2026)",
+   "status": "HX current handyman",
+   "rate": "Unknown (paid per invoice)",
+   "rate_confirmed": false,
+   "trip": "Unknown",
+   "minimum": "Unknown",
+   "materials": "Billed on invoices",
+   "flat": "Per-job invoices",
+   "limits": "Unknown",
+   "best": "Our go-to for routine repairs; already knows the houses",
+   "website_rate": "n/a",
+   "reply": [],
+   "followups": [
+    "Not part of the Oct 7 outreach – existing HX handyman paid by Zelle from CLH operating (PNC x0199)."
+   ],
+   "jobs": [
+    {
+     "date": "2026-09-07",
+     "house": "Scotch",
+     "job": "Dishwasher installation (payment 1 of 2, total $275.61)",
+     "amount": "$100.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-08",
+     "house": "Scotch",
+     "job": "Dishwasher installation (payment 2 of 2)",
+     "amount": "$175.61",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-08",
+     "house": "Sundisk",
+     "job": "Front door repair",
+     "amount": "$45.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-08",
+     "house": "Sunnyside",
+     "job": "Screen door + garage man-door repair",
+     "amount": "$152.50",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-11",
+     "house": "Sundisk",
+     "job": "Invoice 9-11-2026 (details not in memo)",
+     "amount": "$315.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-11",
+     "house": "Scotch",
+     "job": "Invoice 9-11-2026 (details not in memo)",
+     "amount": "$50.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-11",
+     "house": "Chestnut",
+     "job": "Invoice 9-11-2026 (details not in memo)",
+     "amount": "$45.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-17",
+     "house": "Chestnut",
+     "job": "Remainder payment (details not in memo)",
+     "amount": "$255.78",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-22",
+     "house": "Alpine",
+     "job": "Repairs",
+     "amount": "$115.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-22",
+     "house": "Princess",
+     "job": "Repairs",
+     "amount": "$115.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-22",
+     "house": "Gardner",
+     "job": "Repairs (memo has no detail)",
+     "amount": "$160.00",
+     "status": "Paid (Zelle)"
+    },
+    {
+     "date": "2026-09-11",
+     "house": "Unknown",
+     "job": "Zelle to Gama – memo/house not on file",
+     "amount": "$10.18",
+     "status": "Paid (Zelle); house needed"
+    },
+    {
+     "date": "2026-09-11",
+     "house": "Unknown",
+     "job": "Zelle to Gama – memo/house not on file",
+     "amount": "$70.38",
+     "status": "Paid (Zelle); house needed"
+    },
+    {
+     "date": "2026-09-16",
+     "house": "Unknown",
+     "job": "Zelle to Gama – memo/house not on file",
+     "amount": "$596.00",
+     "status": "Paid (Zelle); house needed"
+    },
+    {
+     "date": "2026-09-21",
+     "house": "Unknown",
+     "job": "Zelle to Gama – memo/house not on file",
+     "amount": "$443.84",
+     "status": "Paid (Zelle); house needed"
+    }
+   ],
+   "invoices": [
+    {
+     "label": "2026-09-07 Scotch $100.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1gypeXde_-fK5He9NzmD8esrrPkAUb5os/view"
+    },
+    {
+     "label": "2026-09-08 Scotch $175.61 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1ynk1M6UVH1LWdoevp_famTSGOf0ww2xx/view"
+    },
+    {
+     "label": "2026-09-08 Sundisk $45.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1VpA9EAw7b_3y2W84R3T8mIVJv1TSElSm/view"
+    },
+    {
+     "label": "2026-09-08 Sunnyside $152.50 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1VHrR_Vv1mH7uu9bQe6E04qftGKM66Plf/view"
+    },
+    {
+     "label": "2026-09-11 Sundisk $315.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1-0klSr7Yi1WckVpOPg5CByMyHHy7P_Fk/view"
+    },
+    {
+     "label": "2026-09-11 Scotch $50.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1SDyEyL7OoypMshcnu8B99tKL0bsB1nWi/view"
+    },
+    {
+     "label": "2026-09-11 Chestnut $45.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1BRxSAnVzkKzZ9mj7NMS_6E59oEZgCek4/view"
+    },
+    {
+     "label": "2026-09-17 Chestnut $255.78 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1Hwat4MS1jhJzkXSwhWS18b55s4SaEyl2/view"
+    },
+    {
+     "label": "2026-09-22 Alpine $115.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1d47Z-P4weqpXpuXyUEcij2MADjWLcgT6/view"
+    },
+    {
+     "label": "2026-09-22 Princess $115.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1hSB4e8nVUFiih5LS0Ue_byo6HZh39t40/view"
+    },
+    {
+     "label": "2026-09-22 Gardner $160.00 – Zelle receipt",
+     "url": "https://drive.google.com/file/d/1U5ewgTrdo8ovJw3HEQYxwaN3ry9UXGU1/view"
+    },
+    {
+     "label": "Scotch dishwasher invoice (image)",
+     "url": "https://drive.google.com/file/d/1z5D8_jJUMBe6GxK8NGQ_rgSJAHoNGFNp/view"
+    },
+    {
+     "label": "Gama Maintenance Dashboard sheet (Sept 14)",
+     "url": "https://docs.google.com/spreadsheets/d/1xR-c7pSkIptGDfkicr07UBKpq9Ls1wFu3ABXOdSNHuE/edit"
+    }
+   ]
+  },
+  {
+   "id": "andrew",
+   "name": "Andrew Lewis",
+   "business": "Independent (1099)",
+   "city": "Estes Park",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "area": "Unknown",
+   "services": "Lock install",
+   "contacted": "—",
+   "status": "Used once",
+   "rate": "Unknown",
+   "rate_confirmed": false,
+   "trip": "Unknown",
+   "minimum": "Unknown",
+   "materials": "Lock purchase included",
+   "flat": "Per job",
+   "limits": "Unknown",
+   "best": "Unknown",
+   "website_rate": "n/a",
+   "reply": [],
+   "followups": [],
+   "jobs": [
+    {
+     "date": "2026-09-14",
+     "house": "West Lake",
+     "job": "Entry lock purchase + install/setup",
+     "amount": "$255.00",
+     "status": "Paid (check #4071)"
+    }
+   ],
+   "invoices": [
+    {
+     "label": "Check #4071, $255.00",
+     "url": "https://drive.google.com/file/d/1zjRoDB3WfI8qcbWyiUDVkt3q2vDrYBtH/view"
+    }
+   ]
+  }
+ ],
+ "no_reply": [
+  {
+   "phone": "970-239-1238",
+   "email": null,
+   "website": "https://rangerpropertymaintenance.com/",
+   "area": "Longmont, Loveland, Fort Collins, Greeley, Berthoud",
+   "services": "General repair, drywall, light plumbing & electrical, doors/locks, fixtures, fans, punch lists, inspection repairs, commercial/PM maintenance, monthly maintenance plans",
+   "address": "3806 Balsawood Ln, Loveland CO 80534 (Google listing)",
+   "website_rate": "No hourly rate posted. Monthly plans: $199/mo for 1.5 hrs, $399/mo for 3 hrs, $799/mo for 6 hrs (labor; parts extra)",
+   "contacted": "Oct 7, 2026 (Website estimate form)",
+   "name": "Brandon (owner, Army veteran)",
+   "business": "Ranger Property Maintenance",
+   "status": "No reply"
+  },
+  {
+   "phone": "970-637-9033",
+   "email": "NOCO@momshandymannoco.com",
+   "website": "https://momshandymannoco.com/",
+   "area": "Longmont, Loveland, Fort Collins, Greeley, Berthoud",
+   "services": "General handyman jobs through full renovations, 'no job too small'",
+   "address": "301 S Howes St unit 413, Fort Collins CO 80521",
+   "website_rate": "unknown, ask",
+   "contacted": "Oct 7, 2026 (Text)",
+   "name": "not listed",
+   "business": "Moms Handyman NOCO",
+   "status": "No reply"
+  },
+  {
+   "phone": "970-308-0315",
+   "email": "tim@limitlesscolorado.com",
+   "website": "https://limitlesscolorado.com/fort-collins-handyman/",
+   "area": "Loveland, Fort Collins",
+   "services": "Very broad: carpentry, drywall, plumbing repairs, electrical, flooring, doors/windows, decks, fences, gutters, toilets, remodels",
+   "address": "3662 Butternut Dr, Loveland CO",
+   "website_rate": "$50/hr",
+   "contacted": "Oct 7, 2026 (Email)",
+   "name": "Tim Wheelock (owner)",
+   "business": "Limitless Construction",
+   "status": "No reply"
+  },
+  {
+   "phone": "970-302-1291",
+   "email": "bjohansen970@gmail.com",
+   "website": "https://mrallabout.com/handyman/",
+   "area": "Greeley, Loveland, Fort Collins",
+   "services": "Fence/deck repair, drywall, door hardware, faucets/disposals, fixture swaps (no panel work), caulking, storm doors, yard cleanup, pressure washing. Also mowing and sprinkler blowouts.",
+   "address": "Greeley area",
+   "website_rate": "unknown, ask",
+   "contacted": "Oct 7, 2026 (Email)",
+   "name": "Bradley Johansen (owner-operator)",
+   "business": "All About (Bradley Johansen)",
+   "status": "No reply"
+  },
+  {
+   "phone": "970-716-7253",
+   "email": null,
+   "website": "https://www.mrhandyman.com/fort-collins/",
+   "area": "Fort Collins, Loveland, Greeley",
+   "services": "Full handyman range: repairs, drywall, doors/windows, plumbing, lighting/electrical, flooring, painting, carpentry. Also commercial work.",
+   "address": "1811 E Mulberry St, Fort Collins CO 80524",
+   "website_rate": "unknown, ask",
+   "contacted": "Oct 7, 2026 (Text)",
+   "name": "Cory Hammond (owner)",
+   "business": "Mr. Handyman of Fort Collins",
+   "status": "No reply"
+  }
+ ]
+}
